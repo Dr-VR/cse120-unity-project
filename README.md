@@ -13,7 +13,11 @@ Outlining the progress Children's Hospital Team 16 makes.
                  - SteamVR
                     - https://store.steampowered.com/app/250820/SteamVR/
     2. Prep project :
-                - In Unity Settings, select **'Edit'** Tab, then **'Project Settings'**, under **'Player'** check the **'XR Settings'**                     and check the box for **'Virtual Reality Supported'** and make sure OpenVR is in the list.
+                - In Unity Settings:
+                    - select **'Edit'** Tab
+                    - then **'Project Settings'**
+                        - under **'Player'** check the **'XR Settings'**
+                        - check the box for **'Virtual Reality Supported'** and make sure OpenVR is in the list.
                 - Clone and import project into Unity from this repository.
     3. Additional Support and Documentation :
                 - Vive Community Forums
