@@ -3,7 +3,7 @@
 Outlining the progress Children's Hospital Team 16 makes.
 
 
-###### To Run:
+###### To Run: (Install and setup headset first by following manufacturer instructions)
 
     1. Install :
                  - Unity
@@ -26,12 +26,13 @@ Outlining the progress Children's Hospital Team 16 makes.
                     - https://vr.tobii.com/sdk/
     4. Running Project
                 - Headset must be connected to PC (hardware requirements on manufacturer’s website)
-                - There are different windows and different tabs you can add to help you create your scene/environment. 
+                - There are different windows and different tabs you can add to help you create your scene/environment.
+                    - Add ‘Console’ to your list of tabs to help debug and see current data output.
                 - Press play button at the top of the project in Unity. To stop/end scene press play again.
     5. Understanding the Console outputs
                 - Currently the logs are outputting a normalized gaze data that comes from the ‘Handle2DEyes’ script from
-                the TobiiXR SDK. We originally thought we could use this SDK to get the raw eye data, but this is not the case.
-                This is why you will need to use the ViveSR SDK or another if you can find one.
+                the TobiiXR SDK. We originally thought we could use this SDK to get the raw eye data, but this is not
+                the case. This is why you will need to use the ViveSR SDK or another if you can find one.
                 - The convergence distance is the distance in meters of where the two eye’s gaze converges on screen, this
                 turned out to not be so useful.
                 - Timestamp is the time in seconds from the start of the application.
