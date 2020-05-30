@@ -14,10 +14,10 @@ Outlining the progress Children's Hospital Team 16 makes.
                     - https://store.steampowered.com/app/250820/SteamVR/
     2. Prep project :
                 - In Unity Settings:
-                    - select **'Edit'** Tab
-                    - then **'Project Settings'**
-                        - under **'Player'** check the **'XR Settings'**
-                        - check the box for **'Virtual Reality Supported'** and make sure OpenVR is in the list.
+                    - select 'Edit' Tab
+                    - then 'Project Settings'
+                        - under 'Player' check the 'XR Settings'
+                        - check the box for 'Virtual Reality Supported' and make sure OpenVR is in the list.
                 - Clone and import project into Unity from this repository.
     3. Additional Support and Documentation :
                 - Vive Community Forums
@@ -27,7 +27,7 @@ Outlining the progress Children's Hospital Team 16 makes.
     4. Running Project
                 - Headset must be connected to PC (hardware requirements on manufacturer’s website)
                 - There are different windows and different tabs you can add to help you create your scene/environment.
-                    - Add ‘Console’ to your list of tabs to help debug and see current data output.
+                    - Add 'Console' to your list of tabs to help debug and see current data output.
                 - Press play button at the top of the project in Unity. To stop/end scene press play again.
     5. Understanding the Console outputs
                 - Currently the logs are outputting a normalized gaze data that comes from the ‘Handle2DEyes’ script from
